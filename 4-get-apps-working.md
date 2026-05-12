@@ -2,6 +2,7 @@
 _App security bypass_
 
 ⚠️ Many banking apps may not work on a custom com, as it does certain security checks such as: Is phone unlocked, is phone rooted, etc. But these security verifications can be bypassed and you can get any app to work.
+⚠️ This part may be a bit lengthy and delicate.
 
 1. Download [KernelSU APK - V1.0.5](https://github.com/tiann/KernelSU/releases/download/v1.0.5/KernelSU_v1.0.5_12081-release.apk)
 from: https://github.com/tiann/KernelSU/
