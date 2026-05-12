@@ -101,24 +101,32 @@ You can go ahead with the next step.
 Initially I used the CLI when I first installed CR Droid.
 
 4.2 Flash firmware
-`adb sideload fw_marble_marble_in_global-ota_full-OS3.0.1.0.VMRINXM-user-15.0-ad38ef40ea.zip`
+```bash
+adb sideload fw_marble_marble_in_global-ota_full-OS3.0.1.0.VMRINXM-user-15.0-ad38ef40ea.zip
+```
 
 4.3 Flash kernel
 (Repeat step 4.1)
-`adb sideload LosKsuNxt_06_May_V3.2.0.zip`
+```bash
+adb sideload LosKsuNxt_06_May_V3.2.0.zip
+```
 
 4.4 Flash rom
 (Repeat step 4.1)
-`adb sideload crDroidAndroid-16.0-20260415-marble-v12.9.zip`
+```bash
+adb sideload crDroidAndroid-16.0-20260415-marble-v12.9.zip
+```
 
 4.5 Flash NikGapps
 (Repeat step 4.1)
-`adb sideload NikGapps-crdroid-official-arm64-16-20260223-signed.zip`
+```bash
+adb sideload NikGapps-crdroid-official-arm64-16-20260223-signed.zip
+```
 
 ### Method 2: Push and OrangeFox Recovery
 
 1. Copy the files to your phone
-```
+```bash
 adb push 2.firmware /sdcard/rom/
 adb push 3.kernel /sdcard/rom/
 adb push 4.rom /sdcard/rom/
