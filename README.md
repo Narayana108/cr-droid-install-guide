@@ -5,11 +5,17 @@ CR‑Droid is a Custom Android ROM.
 Find out more on the offical site: https://crdroid.net/
 
 ## Quick links:
-- [1 - Install OrangeFox Recovery](https://github.com/Narayana108/-CR-Droid-install-guide/blob/main/1-flash-orangefox-recovery.md) 
-- [2 - Data Backup & ROM Recovery](https://github.com/Narayana108/-CR-Droid-install-guide/blob/main/2-data-backup-and-rom-recovery.md)
-- [3 - Install CRDroid 12.2](https://github.com/Narayana108/-CR-Droid-install-guide/blob/main/3-flash-crdroid-12.md)
+- [1 - Data Backup and ROM Recovery](https://github.com/Narayana108/cr-droid-install-guide/blob/main/1-data-backup-and-rom-recovery.md)
+Script for full mobile backup - `backup.sh`.
 
-Read in order.
+- [2 - Install or Upgrade a custom rom](https://github.com/Narayana108/cr-droid-install-guide/blob/main/2-flash-rom.md)
+Install or upgrade CR Droid 12
+- [3 - Restore backups](https://github.com/Narayana108/cr-droid-install-guide/blob/main/3-restore-backups.md)
+Restore previously made backups with `restore.sh`.
+- [4 - Get apps working](https://github.com/Narayana108/cr-droid-install-guide/blob/main/4-get-apps-working.md)
+By pass app security verifications.
+
+Read in order if you are a beginner.
 
 ## Terminologies
     - 'ROM' means 'Android Operating system'.
@@ -26,7 +32,7 @@ Read in order.
 ## About this guide
     - Only for educational purposes.
     - Use at own risk.
-    - For all level users
+    - For all level users.
     - File names(versions) used are for CRDroid 12.9. File names should be adjusted according to versions.
 
 **Things break easily ! Always have backups !**

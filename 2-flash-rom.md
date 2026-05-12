@@ -1,5 +1,5 @@
 # 2 - Flash ROM - CRDroid 12
-## Installing a brand new Rom or ugrading an existing one
+## Installing a brand new Rom or upgrading an existing one
 
 ## Prerequisites
 - [1 - Data Backup & ROM Recovery](https://github.com/Narayana108/cr-droid-install-guide/blob/main/1-data-backup-and-rom-recovery.md) Guide completed.
@@ -17,6 +17,9 @@
 ⚠️ Before you start, make sure you’ve **deleted every Google account** from the device on a fresh install. This will prevent “Factory Reset Protection” (FRP) from kicking in during the setup steps.
 
 ⚠️ If you are installing a different ROM or upgrading a major version of the same ROM, you may need to wipe(format) your entire phone_
+  - Example upgrading from CRDroid 11 to 12 is a major version upgrade and requires a full wipe. Upgrading from CRDroid 12.2 to 12.9 is a minor version upgrade and all data can be kept via upgrade, however things may not work so always backup !
+
+⚠️ Many banking apps may not work on a custom rom, as it does certain security checks such as: Is phone unlocked, is phone rooted, etc. But these security verifications can be bypassed and you can get any app to work, follow: [4 - Get apps working](https://github.com/Narayana108/cr-droid-install-guide/blob/main/4-get-apps-working.md)
 
 ## 1. Download the required files
 With correct versions for the specific device, as per the [cr-droids official site](https://crdroid.net/marble/12) or telegram groups instructions.
@@ -80,6 +83,10 @@ Manually access Recover (bootloader) when phone is off:
 - Press and hold: `power + volume up` to access Recovery Mode.
 
 ## 4. Flash Firmware, Kernel and Rom
+
+If installing a different ROM or doing a major version upgrade please wipe the entire phone and then continue with the steps below.
+
+If doing a minor version upgrade, only clearing the cache is required.
 
 4.1 Allow ADB & Sideload
 
@@ -161,4 +168,4 @@ If you have backups, follow thes next guide.
 
 Or
 
-➡️ [4 - Get banking apps working](https://github.com/Narayana108/cr-droid-install-guide/blob/main/4-get-banking-apps-working.md)
+➡️ [4 - Get apps working](https://github.com/Narayana108/cr-droid-install-guide/blob/main/4-get-apps-working.md)
