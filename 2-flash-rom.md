@@ -158,13 +158,15 @@ adb push NikGapps-crdroid-official-arm64-16-20260223-signed.zip /sdcard/rom/
 - Make sure no errors occurred,
 - Reboot to system  ! And you should be now booted into the newly installed CRDroid version !
 
-3.4 Flash NickGapps (Optional: Need for Playstore and Play Services)
+3.4 Flash NickGapps (Optional. Needed for Playstore and Play Services)
+
 
 - Reboot to recovery
 - Flash the Nikgapps
 - Wipe Dalvik/ArtCache and Cache
 - Make sure no errors occurred,
 - Reboot to system !
+- If Play Store is not there redo this step, and make sure other simalar apps like microG is uninstalled.
 
 ✅ Done !
 Reboot your phone and start using CR-Droid !
