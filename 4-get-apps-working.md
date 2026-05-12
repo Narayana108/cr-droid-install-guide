@@ -2,10 +2,12 @@
 _App security bypass_
 
 ⚠️ Many banking apps may not work on a custom com, as it does certain security checks such as: Is phone unlocked, is phone rooted, etc. But these security verifications can be bypassed and you can get any app to work.
-⚠️ This part may be a bit lengthy and delicate.
 
-1. Download [KernelSU APK - V1.0.5](https://github.com/tiann/KernelSU/releases/download/v1.0.5/KernelSU_v1.0.5_12081-release.apk)
-from: https://github.com/tiann/KernelSU/
+⚠️ To bypass all verifications the entire process is not lengthy, but may tedious due to its finicky nature.
+
+1. Download [KernelSU APK - V3.2.0](https://github.com/KernelSU-Next/KernelSU-Next/releases/) for CR Droid 12.9.
+
+In the (Offical Telegram group)[https://t.me/chaitanyabuilds], Type `#ksunext` to see which version of KSU to install.
 
 _The KernelSU app should just be working out the box, nothing extra needs to be installed. This App solely depends on the correct KernelSU version being installed._
 
